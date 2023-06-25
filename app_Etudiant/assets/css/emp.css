@@ -1,0 +1,132 @@
+/* ===== Career form ===== */
+.career-form {
+    background-color: #f3c443;
+    border-radius: 5px;
+    padding: 0 16px;
+  }
+  
+  /* .career-form .form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0;
+    padding: 12px 15px;
+    color: #fff;
+  } */
+  
+  
+  
+  .career-form .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+  }
+  
+  .career-form .form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+    
+  }
+  
+  .career-form .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+  }
+  
+  /* .career-form .custom-select {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0;
+    padding: 12px 15px;
+    color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    text-align: left;
+    height: auto;
+    background-image: none;
+  } */
+  
+  .career-form .custom-select:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+  }
+  
+  .career-form .select-container {
+    position: relative;
+  }
+  
+  .career-form .select-container:before {
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 14px);
+    font-size: 18px;
+    color: #ffffff;
+    content: '\F2F9';
+    font-family: "Material-Design-Iconic-Font";
+  }
+/* ===== Career form===== */
+
+/* ===== job ===== */ 
+
+.shadow {
+  box-shadow: 0 0 3px rgb(53 64 78 / 20%) !important;
+}
+.rounded {
+  border-radius: 5px !important;
+}
+.bg-light {
+  background-color: #efeff0 !important;
+}
+.bg-primary, .btn-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .badge-primary, .nav-pills .nav-link.active, .pagination .active a, .custom-control-input:checked ~ .custom-control-label:before, #preloader #status .spinner > div, .social-icon li a:hover, .back-to-top:hover, .back-to-home a, ::selection, #topnav .navbar-toggle.open span:hover, .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots.clickable .owl-dot:hover span, .watch-video a .play-icon-circle, .sidebar .widget .tagcloud > a:hover, .flatpickr-day.selected, .flatpickr-day.selected:hover, .tns-nav button.tns-nav-active, .form-check-input.form-check-input:checked {
+  /* background-color: #f3c443 !important; */
+  color: #000000 !important;
+}
+
+.badge {
+  padding: 5px 8px;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+  font-size: 12px; 
+  
+}
+
+.btn-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active {
+  box-shadow: 0 3px 7px rgb(109 199 122 / 50%) !important;
+}
+.btn-primary, .btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .bg-soft-primary .border, .alert-primary, .alert-outline-primary, .badge-outline-primary, .nav-pills .nav-link.active, .pagination .active a, .form-group .form-control:focus, .form-group .form-control.active, .custom-control-input:checked ~ .custom-control-label:before, .custom-control-input:focus ~ .custom-control-label::before, .form-control:focus, .social-icon li a:hover, #topnav .has-submenu.active.active .menu-arrow, #topnav.scroll .navigation-menu > li:hover > .menu-arrow, #topnav.scroll .navigation-menu > li.active > .menu-arrow, #topnav .navigation-menu > li:hover > .menu-arrow, .flatpickr-day.selected, .flatpickr-day.selected:hover, .form-check-input:focus, .form-check-input.form-check-input:checked, .container-filter li.active, .container-filter li:hover {
+  border-color: #f3c443 !important;
+}
+.bg-primary, .btn-primary, .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .badge-primary, .nav-pills .nav-link.active, .pagination .active a, .custom-control-input:checked ~ .custom-control-label:before, #preloader #status .spinner > div, .social-icon li a:hover, .back-to-top:hover, .back-to-home a, ::selection, #topnav .navbar-toggle.open span:hover, .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots.clickable .owl-dot:hover span, .watch-video a .play-icon-circle, .sidebar .widget .tagcloud > a:hover, .flatpickr-day.selected, .flatpickr-day.selected:hover, .tns-nav button.tns-nav-active, .form-check-input.form-check-input:checked {
+  background-color: #f3c443!important;
+}
+.btn {
+  padding: 8px 20px;
+  outline: none;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.btn-primary {
+  background-color: #ffffff !important;
+  border: 2px solid #f3c443 !important;
+  color: rgb(0, 0, 0) !important;
+  box-shadow: 0 3px 7px rgb(109 199 122 / 50%);
+}
+.btn-primary:hover{
+  background-color: #f3c443!important;
+}
+
+a {
+text-decoration:none;    
+}
+/* ===== job ===== */ 
+
+
+/* User Cards */
+
+
+.z-depth-3 {
+  -webkit-box-shadow: 0 11px 7px 0 rgba(0,0,0,0.19),0 13px 25px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 11px 7px 0 rgba(0,0,0,0.19),0 13px 25px 0 rgba(0,0,0,0.3);
+  padding: 20px;
+}
+
